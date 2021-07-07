@@ -11,7 +11,7 @@ pipeline {
   stage('Run Docker Container on Jenkins') {
            steps {
              
-                bat 'docker run integrate-docker-jenkins'             
+                bat 'docker run jenkins'             
           }
         }
     }
