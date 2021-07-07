@@ -11,7 +11,7 @@ pipeline {
   stage('Run Docker Container on Jenkins') {
            steps {
              
-                sh 'docker run hello-world'             
+                sh 'docker run integrate-docker-jenkins'             
           }
         }
  stage('Run Docker container on remote hosts') {
