@@ -11,7 +11,7 @@ pipeline {
   stage('Run Docker Container on Jenkins') {
            steps {
              
-                bat 'docker run jenkins'             
+                bat 'docker run jenkins:2.60.3'             
           }
         }
     }
